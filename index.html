@@ -47,6 +47,14 @@ Hello there, I'm DeveloperTeamMember and it's a plesure for me to see you here! 
 
     </div>
   </div>
+        <script src="https://www.google.com/recaptcha/api.js?render=_reCAPTCHA_site_key"></script>
+<script>
+grecaptcha.ready(function() {
+    grecaptcha.execute('_reCAPTCHA_site_key_', {action: 'homepage'}).then(function(token) {
+       ...
+    });
+});
+</script>
         <h3>COVID-19 COMMUNICATE</h3>
         Stay at home to protect yourself and protect the others. #STAYSAFE
         
